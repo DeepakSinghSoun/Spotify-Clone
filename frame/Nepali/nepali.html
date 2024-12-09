@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./Nepali.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h3> Music </h3>
+        </nav>
+    </header>
+
+    <div class="play-song">
+        <li class="song-item">
+            <span>01</span>
+
+            <img src="./nepali-song-photo/Gorkhe_Salam-gorkhali_ko_bhesanai-1.jpg" alt="">
+
+            <h5>Gorkhali Ko Bhesanai 
+                <div class="subtitle" >Gorkhe Salam</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="43" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>02</span>
+
+            <img src="./nepali-song-photo/Music_Nepali-nepali_teej-2.jpg" alt="">
+
+            <h5>Nepali Teej
+                <div class="subtitle" >Music Nepali</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="44" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>03</span>
+
+            <img src="./nepali-song-photo/OSR_Digital-pirim_nalaune-3.jpg" alt="">
+
+            <h5>Pirim Nalaune 
+                <div class="subtitle" >OSR Digital</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="45" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>04</span>
+
+            <img src="./nepali-song-photo/Babu_Krishna_Pariyar-kasmire_pachhyauri-4.jpg" alt="">
+
+            <h5>Kasmire Pachhyauri 
+                <div class="subtitle" >Babu Krishna Pariyar</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="46" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>05</span>
+
+            <img src="./nepali-song-photo/JBG_Producton-gorkhe_khukuri-5.jpg" alt="">
+
+            <h5>Gorkhe Khukuri 
+                <div class="subtitle">JBG Producton</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="47" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>06</span>
+
+            <img src="./nepali-song-photo/Kendra_Motion_Pictures-rukum_maikot-6.jpeg" alt="">
+
+            <h5>Rukum Maikot 
+                <div class="subtitle" >Kendra Motion Pictures</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="48" ></i>
+        </li>
+    </div>
+
+    <div class="content">
+        <h1>Nepali</h1>
+        <p>Nepali Music</p>
+
+        <footer>
+            <div class="music_bar">
+                <div class="start_end">
+                    <span id="current-start">0:00</span>
+    
+                <div class="bar">
+                    <input type="range" id="seek" min="0" max="100">
+                    <div class="bar2" id="bar2"></div>
+                    <div class="dot"></div>
+                </div>
+    
+                <span id="current-end">0:30</span>
+                </div>
+
+                <div class="icon">
+                    <i class="fa-solid shuffle fa-music" data-mode="next"></i>
+                    <i class="fa-solid fa-backward-step" id="back"></i>
+                    <i class="fa-solid fa-play" id="masterPlay"></i>
+                    <i class="fa-solid fa-forward-step" id="next"></i>
+                </div> 
+            </div>
+            
+            <div class="vol">
+                <i class="fa-solid fa-volume-high" id="vol-icon"></i>
+                    <input type="range" min="0" max="100" id="vol">
+                    <div class="dot" id="vol-dot"></div>
+                    <div class="vol-bar"></div>
+                </div>
+            
+        </footer>
+    </div>
+
+    <script src="/script.js"></script>
+
+</body>
+</html>

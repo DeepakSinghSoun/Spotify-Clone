@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+
+.log-in--page {
+    padding: 30px 300px;
+}
+
+.log-in {
+    background-color: #121212;
+    border-radius: 10px;
+    margin-top: 8rem;
+}
+
+.log-in--page .link--for--log-in header {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    min-height: 32px;
+    align-items: center;
+    justify-content: center;
+    font-size: 6vh;
+}
+
+.log-in--page .link--for--log-in header a {
+    color: white;
+}
+
+.log-in--page .link--for--log-in .log-in-spotify {
+    display: flex;
+    justify-content: center;
+}
+
+.link--for--log-in .link {
+    display: flex; 
+    justify-content: center;
+}
+
+.link--for--log-in .link--log-in {
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid grey;
+}
+
+.link--for--log-in .link--log-in a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.link--for--log-in .link--log-in .log-in-g {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.449);
+    height: 6vh;
+    width: 40vh;
+    margin: 10px 0;
+    padding: 0 10px;
+    border-radius: 30px;
+}
+
+.link--for--log-in .link--log-in .log-in-g:hover {
+    border: 1px solid white;
+}
+
+.link--for--log-in .link--log-in .log-in-g i {
+    display: flex;
+    position: relative;
+    right: 45px;
+}
+
+.link--for--log-in .link--log-in .log-in-f {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.449);
+    height: 6vh;
+    width: 40vh;
+    margin: 10px 0;
+    padding: 0 10px;
+    border-radius: 30px;
+}
+
+.link--for--log-in .link--log-in .log-in-f:hover {
+    border: 1px solid white;
+}
+
+.link--for--log-in .link--log-in .log-in-f i {
+    display: flex;
+    position: relative;
+    right: 38px;
+}
+
+.link--for--log-in .link--log-in .log-in-a {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.449);
+    height: 6vh;
+    width: 40vh;
+    margin: 10px 0;
+    padding: 0 10px;
+    border-radius: 30px;
+}
+
+.link--for--log-in .link--log-in .log-in-a:hover {
+    border: 1px solid white;
+}
+
+.link--for--log-in .link--log-in .log-in-a i {
+    display: flex;
+    position: relative;
+    right: 50px;
+}
+
+.link--for--log-in .link--log-in .log-in-continue {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.449);
+    height: 6vh;
+    width: 40vh;
+    margin: 10px 0;
+    padding: 0 10px;
+    border-radius: 30px;
+}
+
+.link--for--log-in .link--log-in .log-in-continue:hover {
+    border: 1px solid white;
+}
+
+
+
+.log-in--page .email-password-button {
+    display: flex;
+    justify-content: center;
+}
+
+.log-in--page .form {
+    margin-top: 20px;
+}
+
+.log-in--page .form .email-text input {
+    background-color: transparent;
+    border: 2px solid white;
+    height: 6vh;
+    width: 40vh;
+    margin: 10px 0;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.log-in--page .form .password-text input {
+    background-color: transparent;
+    border: 2px solid white;
+    height: 6vh;
+    width: 40vh;
+    margin: 10px 0;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.log-in--page .form button {
+    margin-top: 20px;
+    height: 6vh;
+    width: 40vh;
+    background-color: #1ed760;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.log-in--page .form button:hover {
+    background-color: #3be477;
+}
+
+.log-in--page .form .check {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.log-in--page .form .check span {
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.log-in--page .form .forgot-password {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.log-in--page .form .forgot-password a {
+    color: white;
+}
+
+.log-in--page .text-in-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.log-in--page .text-in-footer a {
+    color: white;
+    margin-left: 5px;
+}
+
+
+
+footer {
+    font-size: 14px;
+    background-color: #121212;
+    color: rgb(179, 179, 179);
+    padding: 32px;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p a {
+    color: white;
+}

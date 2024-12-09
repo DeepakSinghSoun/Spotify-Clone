@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./Arijit-Singh.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h3> Music </h3>
+        </nav>
+    </header>
+
+    <div class="play-song">
+        <li class="song-item">
+            <span>01</span>
+
+            <img src="./Arijit_singh-song-photo/galti-se-mistake-1.jpg" alt="">
+
+            <h5>Galti Se Mistake 
+                <div class="subtitle">Arijit Singh</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="19" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>02</span>
+
+            <img src="./Arijit_singh-song-photo/soulmate-2.jpg" alt="">
+
+            <h5>Soulmate 
+                <div class="subtitle" >Arijit Singh</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="20" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>03</span>
+
+            <img src="./Arijit_singh-song-photo/woh-din-3.jpg" alt="">
+
+            <h5>Woh Din 
+                <div class="subtitle" >Arijit Singh</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="21" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>04</span>
+
+            <img src="./Arijit_singh-song-photo/humdard-4.jpg" alt="">
+
+            <h5>Humdard 
+                <div class="subtitle" >Arijit Singh</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="22" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>05</span>
+
+            <img src="./Arijit_singh-song-photo/apna-bana-le-5.jpg" alt="">
+
+            <h5>Apna Bana Le
+                <div class="subtitle" >Arijit Singh</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="23" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>06</span>
+
+            <img src="./Arijit_singh-song-photo/chaleya-6.jpg" alt="">
+
+            <h5>Chaleya 
+                <div class="subtitle" >Arijit Singh</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="24" ></i>
+        </li>
+    </div>
+
+    <div class="content">
+        <h1>Arijit Singh</h1>
+        <p>Arijit Singh (born 25 April 1987) is an Indian playback singer and music composer.</p>
+
+        <footer>
+            <div class="music_bar">
+                <div class="start_end">
+                    <span id="current-start">0:00</span>
+    
+                <div class="bar">
+                    <input type="range" id="seek" min="0" max="100">
+                    <div class="bar2" id="bar2"></div>
+                    <div class="dot"></div>
+                </div>
+    
+                <span id="current-end">0:30</span>
+                </div>
+
+                <div class="icon">
+                    <i class="fa-solid shuffle fa-music" data-mode="next"></i>
+                    <i class="fa-solid fa-backward-step" id="back"></i>
+                    <i class="fa-solid fa-play" id="masterPlay"></i>
+                    <i class="fa-solid fa-forward-step" id="next"></i>
+                </div> 
+            </div>
+            
+            <div class="vol">
+                <i class="fa-solid fa-volume-high" id="vol-icon"></i>
+                    <input type="range" min="0" max="100" id="vol">
+                    <div class="dot" id="vol-dot"></div>
+                    <div class="vol-bar"></div>
+                </div>
+            
+        </footer>
+    </div>
+
+    <script src="/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./Pahari.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h3> Music </h3>
+        </nav>
+    </header>
+
+    <div class="play-song">
+        <li class="song-item">
+            <span>01</span>
+
+            <img src="./pahari-song-photo/Chandani_Enterprises-bedu_pako-1.jpg" alt="">
+
+            <h5>Bedu Pako 
+                <div class="subtitle" >Chandani Enterprises</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="37" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>02</span>
+
+            <img src="./pahari-song-photo/B_K_Samant-thal_ki_bazar-2.jpg" alt="">
+
+            <h5>Thal Ki Bazar 
+                <div class="subtitle" >B K Samant</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="38" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>03</span>
+
+            <img src="./pahari-song-photo/Mashakbeen-chaha_ko_hotel-3.jpg" alt="">
+
+            <h5>Chaha Ko Hotel 
+                <div class="subtitle" >Mashakbeen</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="39" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>04</span>
+
+            <img src="./pahari-song-photo/Mashakbeen-cream_paudara-4.jpeg" alt="">
+
+            <h5>Cream Paudara 
+                <div class="subtitle" >Mashakbeen</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="40" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>05</span>
+
+            <img src="./pahari-song-photo/Mashakbeen-jhumki-5.jpg" alt="">
+
+            <h5>Jhumki 
+                <div class="subtitle">Mashakbeen</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="41" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>06</span>
+
+            <img src="./pahari-song-photo/Pandavaas-radha-6.jpg" alt="">
+
+            <h5>Radha 
+                <div class="subtitle" >Pandavaas</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="42" ></i>
+        </li>
+    </div>
+
+    <div class="content">
+        <h1>Pahari</h1>
+        <p>Pahari Music</p>
+
+        <footer>
+            <div class="music_bar">
+                <div class="start_end">
+                    <span id="current-start">0:00</span>
+    
+                <div class="bar">
+                    <input type="range" id="seek" min="0" max="100">
+                    <div class="bar2" id="bar2"></div>
+                    <div class="dot"></div>
+                </div>
+    
+                <span id="current-end">0:30</span>
+                </div>
+
+                <div class="icon">
+                    <i class="fa-solid shuffle fa-music" data-mode="next"></i>
+                    <i class="fa-solid fa-backward-step" id="back"></i>
+                    <i class="fa-solid fa-play" id="masterPlay"></i>
+                    <i class="fa-solid fa-forward-step" id="next"></i>
+                </div> 
+            </div>
+            
+            <div class="vol">
+                <i class="fa-solid fa-volume-high" id="vol-icon"></i>
+                    <input type="range" min="0" max="100" id="vol">
+                    <div class="dot" id="vol-dot"></div>
+                    <div class="vol-bar"></div>
+                </div>
+            
+        </footer>
+    </div>
+
+    <script src="/script.js"></script>
+
+</body>
+</html>

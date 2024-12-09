@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./A_R-Rahman.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h3> Music </h3>
+        </nav>
+    </header>
+
+    <div class="play-song">
+        <li class="song-item">
+            <span>01</span>
+
+            <img src="./A.R._Rahman-song-photo/agar-tum-saatg-ho-1.jpeg" alt="">
+
+            <h5>Agar Tum Saatg Ho 
+                <div class="subtitle" >A.R. Rahman</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="7" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>02</span>
+
+            <img src="./A.R._Rahman-song-photo/water-pecket-2.jpeg" alt="">
+
+            <h5>Water Pecket 
+                <div class="subtitle" >A.R. Rahman</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="8" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>03</span>
+
+            <img src="./A.R._Rahman-song-photo/kabhi-kabhi-aditi-3.jpeg" alt="">
+
+            <h5>Kabhi Kabhi Aditi 
+                <div class="subtitle" >A.R. Rahman</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="9" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>04</span>
+
+            <img src="./A.R._Rahman-song-photo/adangaath-asuran-4.jpeg" alt="">
+
+            <h5>Adangaath Asuran 
+                <div class="subtitle" >A.R. Rahman</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="10" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>05</span>
+
+            <img src="./A.R._Rahman-song-photo/kun-faya-kun-5.jpeg" alt="">
+
+            <h5>Kun Faya Kun
+                <div class="subtitle" >A.R. Rahman</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="11" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>06</span>
+
+            <img src="./A.R._Rahman-song-photo/raanjhanaa-6.jpeg" alt="">
+
+            <h5>Raanjhanaa 
+                <div class="subtitle" >A.R. Rahman</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="12" ></i>
+        </li>
+    </div>
+
+    <div class="content">
+        <h1>A.R. Rahman</h1>
+        <p>Allah Rakha Rahman was born as Dileep Kumar Rajagopala in Madras, Tamil Nadu, on 6 January 1967. His father, R. K.</p>
+
+        <footer>
+            <div class="music_bar">
+                <div class="start_end">
+                    <span id="current-start">0:00</span>
+    
+                <div class="bar">
+                    <input type="range" id="seek" min="0" max="100">
+                    <div class="bar2" id="bar2"></div>
+                    <div class="dot"></div>
+                </div>
+    
+                <span id="current-end">0:30</span>
+                </div>
+
+                <div class="icon">
+                    <i class="fa-solid shuffle fa-music" data-mode="next"></i>
+                    <i class="fa-solid fa-backward-step" id="back"></i>
+                    <i class="fa-solid fa-play" id="masterPlay"></i>
+                    <i class="fa-solid fa-forward-step" id="next"></i>
+                </div> 
+            </div>
+            
+            <div class="vol">
+                <i class="fa-solid fa-volume-high" id="vol-icon"></i>
+                    <input type="range" min="0" max="100" id="vol">
+                    <div class="dot" id="vol-dot"></div>
+                    <div class="vol-bar"></div>
+                </div>
+            
+        </footer>
+    </div>
+
+    <script src="/script.js"></script>    
+
+</body>
+</html>

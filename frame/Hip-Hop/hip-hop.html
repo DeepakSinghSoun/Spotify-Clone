@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./Hip-Hop.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h3> Music </h3>
+        </nav>
+    </header>
+
+    <div class="play-song">
+        <li class="song-item">
+            <span>01</span>
+
+            <img src="./hip_hop-song-photo/Eminem-without_me-1.webp" alt="">
+
+            <h5>Without Me 
+                <div class="subtitle" >Eminem</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="55" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>02</span>
+
+            <img src="./hip_hop-song-photo/Team_Tornado-pahadi_slang-2.jpeg" alt="">
+
+            <h5>Pahadi Slang 
+                <div class="subtitle" >Team Tornado</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="56" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>03</span>
+
+            <img src="./hip_hop-song-photo/Vibing-Monk-Records-saksham_dhyani-3.jpg" alt="">
+
+            <h5>Saksham Dhyani 
+                <div class="subtitle" >Vibing Monk Records</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="57" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>04</span>
+
+            <img src="./hip_hop-song-photo/Devel-mental_therapy-4.jpeg" alt="">
+
+            <h5>Mental Therapy 
+                <div class="subtitle" >Devel</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="58" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>05</span>
+
+            <img src="./hip_hop-song-photo/Sono_Lem-lost-5.jpg" alt="">
+
+            <h5>Lost 
+                <div class="subtitle">Sono Lem</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="59" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>06</span>
+
+            <img src="./hip_hop-song-photo/Shashwat_Rana-6.jpg" alt="">
+
+            <h5>Life Rana 
+                <div class="subtitle" >Shashwat Rana</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="60" ></i>
+        </li>
+    </div>
+
+    <div class="content">
+        <h1>Hip Hop</h1>
+        <p>Hip Hop Music</p>
+
+        <footer>
+            <div class="music_bar">
+                <div class="start_end">
+                    <span id="current-start">0:00</span>
+    
+                <div class="bar">
+                    <input type="range" id="seek" min="0" max="100">
+                    <div class="bar2" id="bar2"></div>
+                    <div class="dot"></div>
+                </div>
+    
+                <span id="current-end">0:30</span>
+                </div>
+
+                <div class="icon">
+                    <i class="fa-solid shuffle fa-music" data-mode="next"></i>
+                    <i class="fa-solid fa-backward-step" id="back"></i>
+                    <i class="fa-solid fa-play" id="masterPlay"></i>
+                    <i class="fa-solid fa-forward-step" id="next"></i>
+                </div> 
+            </div>
+            
+            <div class="vol">
+                <i class="fa-solid fa-volume-high" id="vol-icon"></i>
+                    <input type="range" min="0" max="100" id="vol">
+                    <div class="dot" id="vol-dot"></div>
+                    <div class="vol-bar"></div>
+                </div>
+            
+        </footer>
+    </div>
+
+    <script src="/script.js"></script>
+
+</body>
+</html>

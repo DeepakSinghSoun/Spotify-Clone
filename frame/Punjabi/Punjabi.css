@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+}
+
+/*                         header                          */
+
+header {
+    margin: 20px 0 10px 30px;
+}
+
+header nav {
+    color: #1db954;
+}
+
+/*                        2  box                          */
+
+.content {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    margin: 20px 10px 10px;
+    height: 35vh;
+    overflow: auto;
+    padding: 24px 0 0 15px;
+}
+
+.content h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 11px;
+    font-weight: 400;
+    color: #4c5362;
+    margin: 5px;
+}
+
+/*                           1 box                                  */
+
+
+.play-song {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    margin: 5px 10px;
+    height: 53vh;
+    overflow: auto;
+}
+
+.play-song::-webkit-scrollbar {
+    display: none;
+}
+
+.play-song li {
+    list-style-type: none;
+    position: relative;
+    padding: 15px 0 5px 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.play-song li:hover {
+    background-color: rgb(105, 105, 105, .1);
+}
+
+.play-song li span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #4c5362;
+}
+
+.play-song li img {
+    width: 32px;
+    height: 32px;
+    margin-left: 25px;
+}
+
+.play-song li h5 {
+    font-size: 11px;
+    margin-left: 15px;
+    width: 170px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.play-song li h5 .subtitle {
+    font-size: 9px;
+    color: #4c5362;
+}
+
+.play-song li h5 .fa-solid {
+    position: absolute;
+    right: 15px;
+}
+
+.song-item i {
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.song-item i:hover {
+    color: #1db954;
+    transform: scale(1.5);
+}
+
+
+/*                                     footer                                       */
+
+footer {
+    margin-top: 30px;
+}
+
+.music_bar {
+    display:block;
+}
+
+.start_end {
+    display: flex;
+    margin-left: -10px;
+}
+
+.icon {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: -40px;
+    margin-right: 18px;
+    align-items: center;
+    outline: none;
+}
+
+.icon .fa-solid {
+    cursor: pointer;
+    outline: none;
+}
+
+.icon .shuffle {
+    font-size: 18px;
+    margin-right: 10px;
+    width: 17.5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+span {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.bar {
+    position: relative;
+    width: 75%;
+    height: 2px;
+    background-color: rgb(105, 105, 170, .1);
+    margin-left: 5px;
+    margin-top: 7px;
+}
+
+.bar .bar2 {
+    position: absolute;
+    background-color: #36e2ec;
+    width: 0%;
+    height: 100%;
+    transition: 1s linear;
+}
+
+.bar .dot {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #36e2ec;
+    border-radius: 50%;
+    left: 0%;
+    top: -0.5px;
+    transition: 1s linear;
+}
+
+.bar .dot::before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #36e2ec;
+    border-radius: 50%;
+    top: -5px;
+    left: -5px;
+    box-shadow: inset 0px 0px 3px #36e2ec;
+}
+
+.bar input {
+    position: absolute;
+    width: 100%;
+    top: -7px;
+    left: 0;
+    cursor: pointer;
+    z-index: 9;
+    opacity: 0;
+}
+
+/* vol bar */
+
+.vol {
+    margin-top: 30px;
+    height: 2px;
+    width: 85%;
+    left: 25px;
+    position: relative;
+    background-color: rgb(105, 105, 170, .1);
+}
+
+.vol .fa-solid {
+    position: absolute;
+    top: -6px;
+    left: -28px;
+}
+
+.vol input {
+    top: -6px;
+    position: absolute;
+    width: 100%;
+    cursor: pointer;
+    z-index: 9;
+    opacity: 0;
+}
+
+.vol .vol-bar {
+    position: absolute;
+    background-color: #36e2ec;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transition: 1s linear;
+}
+
+.vol .dot {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #36e2ec;
+    border-radius: 50%;
+    left: 100%;
+    top: -1.5px;
+    transition: 1s linear;
+}
+
+.vol .dot::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #36e2ec;
+    border-radius: 50%;
+    left: -6px;
+    top: -5.5px;
+    box-shadow: inset 0px 0px 3px #36e2ec;
+}

@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Popular-artists */
+
+.popular-artists {
+    margin: 15px 20px 40px 15px;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+header button {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+/* Popular-artist */
+
+.all-artist {
+    display: flex;
+    cursor: pointer;
+}
+
+.all-artist a {
+    color: #fff;
+    text-decoration: none;
+    width: auto; /* Fixes width issue */
+}
+
+.popular-artists .item {
+    padding: -0.5px 8px;
+    margin-right: 15px;
+}
+
+.popular-artists .item:hover {
+    background-color: #3d3c3c;
+    border-radius: 10px;
+}
+
+.popular-artists .artist-item img {
+    max-height: 100%;
+    max-width: 100%;
+    height: 30vh;
+    border-radius: 50%; /* Consistent circular design */
+    width: 30vh;
+    object-fit: cover;
+}
+
+.name-artist .play-btn {
+    position: relative;
+}
+
+.name-artist .play-btn i {
+    position: absolute;
+    color: black;
+    background-color: #1db954;
+    border-radius: 50%;
+    padding: 14px;
+    right: 8px;
+    top: -50px;
+    opacity: 0;
+    transition: all 0.3s ease; /* Fixed invalid property */
+}
+
+.item:hover .play-btn i {
+    opacity: 1;
+    transform: translateY(-20px); /* Applied transition */
+}
+
+.name-artist {
+    margin: 10px 0 0 20px;
+}
+
+.name-artist span.artist-name {
+    font-size: 17px;
+}
+
+.name-artist span.artist-name a {
+    text-decoration: none;
+    color: white;
+}
+
+.name-artist span.type {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.441);
+}
+
+/* Browse-All Artists */
+
+.browse-all {
+    margin: 15px 20px 40px 15px;
+}
+
+.browse-all .artist-item img {
+    max-height: 100%;
+    max-width: 100%;
+    height: 30vh;
+    width: 30vh;
+    object-fit: cover;
+    border-radius: 10%; /* Consistent with design intent */
+}
+
+.browse-all .item {
+    padding: 6.5px 9px;
+    margin-right: 5px;
+}
+
+.browse-all .item:hover {
+    background-color: #3d3c3c;
+    border-radius: 10px;
+}

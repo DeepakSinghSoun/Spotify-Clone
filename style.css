@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo i {
+    font-size: 35px;
+}
+
+.logo a {
+    color: #1db954;
+}
+
+.search {
+    display: flex;
+}
+
+.search h1 {
+    color: #1db954;
+    font-size: 5vh;
+}
+
+/* Button for sign up and log in */
+
+.log-in--sign-up {
+    margin-right: 8px;
+}
+
+/* sign up */
+
+.log-in--sign-up button.sign-up {
+    height: 4vh;
+    width: 9vh;
+    border: none;
+    font-size: 17px;
+    margin-right: 20px;
+    background-color: black;
+}
+
+.log-in--sign-up button.sign-up a {
+    color: white;
+    text-decoration: none;
+}
+
+.log-in--sign-up button.sign-up:hover, button.sign-up a:hover {
+    transform: translate(0, -2px);
+    color: rgba(255, 255, 255, 0.241);
+}
+
+/* log in */
+
+.log-in--sign-up button.log-in {
+    height: 7vh;
+    width: 15vh;
+    border-radius: 28px;
+    border: none;
+    font-size: 17px;
+}
+
+.log-in--sign-up button.log-in a {
+    color: rgb(18, 18, 18);
+    text-decoration: none;
+    background-color: transparent;
+    padding: 14px;
+}
+
+.log-in--sign-up button.log-in:hover, button.log-in a {
+    background-color: rgba(255, 255, 255, 0.822);
+    transform: translate(0, -2px);
+}
+
+/* two html page in one html page by frame */
+
+iframe {
+    border: none;
+    border-radius: 9px;
+}

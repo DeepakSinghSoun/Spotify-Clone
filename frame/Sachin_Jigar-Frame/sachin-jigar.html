@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./Sachin-Jigar.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h3> Music </h3>
+        </nav>
+    </header>
+
+    <div class="play-song">
+        <li class="song-item">
+            <span>01</span>
+
+            <img src="./Sachin_jigar-song-photo/aaj-ki-raat-1.jpeg" alt="">
+
+            <h5>Aaj Ki Raat 
+                <div class="subtitle" >Sachin Jigar</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="13" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>02</span>
+
+            <img src="./Sachin_jigar-song-photo/aayi-nai-2.jpeg" alt="">
+
+            <h5>Aayi Nai 
+                <div class="subtitle" >Sachin Jigar</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="14" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>03</span>
+
+            <img src="./Sachin_jigar-song-photo/apna-bana-le-3.jpeg" alt="">
+
+            <h5>Apna Bana Le 
+                <div class="subtitle" >Sachin Jigar</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="15" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>04</span>
+
+            <img src="./Sachin_jigar-song-photo/tumhare-hi-rahenge-hum-4.jpeg" alt="">
+
+            <h5>Tumhare Hi Rahenge Hum 
+                <div class="subtitle" >Sachin Jigar</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="16" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>05</span>
+
+            <img src="./Sachin_jigar-song-photo/khoobsurat-5.jpeg" alt="">
+
+            <h5>Khoobsurat 
+                <div class="subtitle" >Sachin Jigar</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="17" ></i>
+        </li>
+
+        <li class="song-item">
+            <span>06</span>
+
+            <img src="./Sachin_jigar-song-photo/ek-zindagi-6.jpeg" alt="">
+
+            <h5>Ek Zindagi 
+                <div class="subtitle" >Sachin Jigar</div>
+            </h5>
+
+            <i class="fa-solid playListPlay fa-play" id="18" ></i>
+        </li>
+    </div>
+
+    <div class="content">
+        <h1>Sachin Jigar</h1>
+        <p>Sachin–Jigar are an Indian music composer duo consisting of Sachin Sanghvi and Jigar Saraiya.</p>
+
+        <footer>
+            <div class="music_bar">
+                <div class="start_end">
+                    <span id="current-start">0:00</span>
+    
+                <div class="bar">
+                    <input type="range" id="seek" min="0" max="100">
+                    <div class="bar2" id="bar2"></div>
+                    <div class="dot"></div>
+                </div>
+    
+                <span id="current-end">0:30</span>
+                </div>
+
+                <div class="icon">
+                    <i class="fa-solid shuffle fa-music" data-mode="next"></i>
+                    <i class="fa-solid fa-backward-step" id="back"></i>
+                    <i class="fa-solid fa-play" id="masterPlay"></i>
+                    <i class="fa-solid fa-forward-step" id="next"></i>
+                </div> 
+            </div>
+            
+            <div class="vol">
+                <i class="fa-solid fa-volume-high" id="vol-icon"></i>
+                    <input type="range" min="0" max="100" id="vol">
+                    <div class="dot" id="vol-dot"></div>
+                    <div class="vol-bar"></div>
+                </div>
+            
+        </footer>
+    </div>
+
+    <script src="/script.js"></script>
+
+</body>
+</html>

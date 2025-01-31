@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const songCount = 60; // Total songs in your playlist
 
     // Play/Pause functionality with check for masterPlay
+    
     if (masterPlay) {
         masterPlay.addEventListener('click', () => {
             if (music.paused || music.currentTime <= 0) {
